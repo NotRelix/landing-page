@@ -70,10 +70,46 @@ body {
 
 .model-d {
     width: 500px;
+    border-radius: 15px;
 }
 
 .second-container {
     background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    column-gap: 30px;
+    color: #746d6d;
+    font-size: 20px;    
+    font-weight: bold;
+}
+
+.second-container img {
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.second-content {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.models {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2927;
+}
+
+.model-b,
+.model-a,
+.model-o,
+.model-m {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .third-container {
