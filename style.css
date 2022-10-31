@@ -51,11 +51,12 @@ body {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    margin-bottom: 10px;
 }
 
 .hero-text {
     padding: 0;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     min-width: 270px;
 }
 
@@ -77,7 +78,7 @@ body {
     background-color: white;
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 100px;
     column-gap: 30px;
     color: #746d6d;
     font-size: 20px;    
@@ -113,7 +114,25 @@ body {
 }
 
 .third-container {
-    background-color: #E5E7EB
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    margin-bottom: 8px;
+}
+
+.animenz {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 30px;
 }
 
 .fourth-container {
