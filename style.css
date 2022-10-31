@@ -1,6 +1,9 @@
-body {
+* {
     margin: 0;
     padding: 0;
+}
+
+body {
     display: flex;
     flex-direction: column;
     flex: auto;
@@ -8,11 +11,23 @@ body {
 
 .heading {
     background-color: #1F2937;
+    padding: 10px 150px;
+}
+
+.brand {
+    display: flex;
 }
 
 .logo {
+    width: 50px;
+}
+
+.logo-text {
     color: #F9FAF8;
     font-size: 24px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
 }
 
 .first-container,
@@ -26,6 +41,7 @@ body {
 
 
 .first-container {
+    padding: 0 150px;
     background-color: #1F2937;
 }
 
@@ -41,14 +57,25 @@ body {
     background-color: white;
 }
 
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
 li {
     list-style: none;
 }
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: #e5e7eb;
     font-size: 18px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
 }
 
 /* Footer */
